@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,td {
+    border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even),
+thead tr {
+    background-color: #ddd;
+}
